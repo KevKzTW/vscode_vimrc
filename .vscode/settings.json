@@ -1,0 +1,648 @@
+{
+    "cppcheck.standard": [
+        "c99",
+        "c++11"
+    ],
+    "cppcheck.hideProgressMessages": true,
+    "clang-format.style": "aaaaa",
+    "editor.formatOnSave": true,
+    "files.associations": {
+        "thread": "cpp",
+        "typeinfo": "cpp",
+        "fetchdevinfo.h": "c",
+        "ratio": "cpp",
+        "system_error": "cpp",
+        "type_traits": "cpp",
+        "*.tcc": "cpp",
+        "array": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "vector": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "tuple": "cpp",
+        "unordered_map": "cpp"
+    },
+    
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "<F1>"
+            ],
+            "after": [
+                "<Esc>",
+                "?",
+                "[",
+                "T",
+                "<CR>",
+                "\/",
+                "v",
+                "o",
+                "i",
+                "d",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<F2>"
+            ],
+            "after": [
+                "<Esc>",
+                "?",
+                "[",
+                "F",
+                "a",
+                "c",
+                "t",
+                "<CR>",
+                "\/",
+                "v",
+                "o",
+                "i",
+                "d",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "k"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "j"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "a",
+                "e"
+            ],
+            "after": [
+                "A",
+                "s",
+                "s",
+                "e",
+                "r",
+                "t",
+                ".",
+                "A",
+                "r",
+                "e",
+                "E",
+                "q",
+                "u",
+                "a",
+                "l",
+                "(",
+                "e",
+                "x",
+                "p",
+                "e",
+                "c",
+                "t",
+                "e",
+                "d",
+                ",",
+                "a",
+                "c",
+                "t",
+                "u",
+                "a",
+                "l",
+                ")",
+                ";",
+                "<Esc>",
+                "("
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "p",
+                "m"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "f"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "r",
+                "c"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "r",
+                "z"
+            ],
+            "after": [
+                "<Esc>",
+                "v",
+                "s",
+                "c"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ";"
+            ],
+            "after": [
+                "<Esc>",
+                "a",
+                ";"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ",",
+                "p"
+            ],
+            "after": [
+                "<Esc>",
+                "0",
+                "p",
+                "a"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ",",
+                "P"
+            ],
+            "after": [
+                "<Esc>",
+                "0",
+                "P",
+                "a"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "j"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "h"
+            ],
+            "after": [
+                "<Esc>",
+                "i"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "l"
+            ],
+            "after": [
+                "<End>"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "d"
+            ],
+            "after": [
+                "<Esc>",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-x>"
+            ],
+            "after": [
+                "<Esc>",
+                "d"
+            ]
+        },
+        {
+            "before": [
+                "<C-a>"
+            ],
+            "after": [
+                "<Esc>",
+                "a",
+                "<CR>",
+                "g",
+                "V",
+                "G"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<F1>"
+            ],
+            "after": [
+                "y",
+                "?",
+                "[",
+                "T",
+                "<CR>",
+                "\/",
+                "v",
+                "o",
+                "i",
+                "d",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "<F2>"
+            ],
+            "after": [
+                "y",
+                "?",
+                "[",
+                "F",
+                "a",
+                "c",
+                "t",
+                "<CR>",
+                "\/",
+                "v",
+                "o",
+                "i",
+                "d",
+                "<CR>"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "a",
+                "e"
+            ],
+            "after": [
+                "a",
+                "A",
+                "s",
+                "s",
+                "e",
+                "r",
+                "t",
+                ".",
+                "A",
+                "r",
+                "e",
+                "E",
+                "q",
+                "u",
+                "a",
+                "l",
+                "(",
+                "e",
+                "x",
+                "p",
+                "e",
+                "c",
+                "t",
+                "e",
+                "d",
+                ",",
+                "a",
+                "c",
+                "t",
+                "u",
+                "a",
+                "l",
+                ")",
+                ";",
+                "<Esc>",
+                "("
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ";"
+            ],
+            "after": [
+                "$",
+                "a",
+                ";",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "p"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "p"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "P"
+            ],
+            "after": [
+                "\"",
+                "0",
+                "P"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ","
+            ],
+            "after": [
+                "v",
+                "i",
+                ")"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "."
+            ],
+            "after": [
+                "v",
+                "i",
+                "}"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ")"
+            ],
+            "after": [
+                "v",
+                "i",
+                ")"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "}"
+            ],
+            "after": [
+                "v",
+                "i",
+                "}"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                ">"
+            ],
+            "after": [
+                "v",
+                "i",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "c",
+                ">"
+            ],
+            "after": [
+                "c",
+                "i",
+                "t"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "\""
+            ],
+            "after": [
+                "v",
+                "i",
+                "\""
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "c",
+                "c"
+            ],
+            "after": [
+                "c",
+                "i",
+                "\""
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "a",
+                "a"
+            ],
+            "after": [
+                "c",
+                "a",
+                "\""
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "x",
+                "x"
+            ],
+            "after": [
+                "c",
+                "i",
+                "]"
+            ]
+        },
+        {
+            "before": [
+                "<BS>"
+            ],
+            "after": [
+                "a",
+                "<BS>"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "h"
+            ],
+            "after": [
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "l",
+                "l"
+            ],
+            "after": [
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "t"
+            ],
+            "after": [
+                "z",
+                "t",
+                "2",
+                "k",
+                "2",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "h",
+                "c"
+            ],
+            "after": [
+                "^",
+                "C"
+            ]
+        },
+        {
+            "before": [
+                "z",
+                "b"
+            ],
+            "after": [
+                "b",
+                "c",
+                "w"
+            ]
+        },
+        {
+            "before": [
+                "j"
+            ],
+            "after": [
+                "g",
+                "j"
+            ]
+        },
+        {
+            "before": [
+                "k"
+            ],
+            "after": [
+                "g",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "q",
+                "q"
+            ],
+            "after": [
+                "Z",
+                "Q"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "i"
+            ],
+            "after": [
+                "i",
+                "?",
+                "<Esc>"
+            ]
+        },
+        {
+            "before": [
+                ",",
+                "a"
+            ],
+            "after": [
+                "a",
+                "?",
+                "<Esc>"
+            ]
+        }
+    ]
+
+}

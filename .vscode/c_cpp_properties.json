@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "path": [],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c99",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}
